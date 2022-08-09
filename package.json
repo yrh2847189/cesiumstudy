@@ -1,0 +1,39 @@
+{
+  "name": "cesiumstudy",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@dvgis/cesium-map": "^2.5.0",
+    "@dvgis/cesium-widget": "^1.0.1",
+    "cesium-context-menu": "^1.0.0",
+    "cesium-heatmap": "0.0.4",
+    "cesium-heatmap-es6": "^0.4.0",
+    "cesium-navigation-es6": "^3.0.8",
+    "cesium-tdt": "^1.1.0",
+    "cesiumheatmapyrh": "^0.4.0",
+    "cesiumvectortile": "^1.2.2",
+    "echarts": "^5.3.2",
+    "element-plus": "^2.2.0",
+    "html2canvas": "^1.4.1",
+    "rollup-plugin-external-globals": "^0.6.1",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.15"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "cesium": "^1.91.0",
+    "less": "^4.1.2",
+    "less-loader": "^11.0.0",
+    "tern": "^0.24.3",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vite-plugin-cesium": "^1.2.18",
+    "vue-tsc": "^0.34.7"
+  }
+}
